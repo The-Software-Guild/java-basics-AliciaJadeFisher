@@ -140,7 +140,11 @@ public class RockPaperScissors
         }
     }
 
-    // Converts a number to it's equivalent choice
+    /**
+     * Converts a number choice to its String equivalent
+     * @param num - choice
+     * @return string version of num
+     */
     public static String getChoice(int num)
     {
         if(num == 1)
