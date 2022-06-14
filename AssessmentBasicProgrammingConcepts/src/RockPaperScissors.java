@@ -157,7 +157,12 @@ public class RockPaperScissors
         }
     }
 
-    // Compares the two values to see who won
+    /**
+     * Compares the choices to determine the winne
+     * @param user - user's choice
+     * @param computer - winner's choice
+     * @return boolean determining if the user won
+     */
     public static boolean playerWins(String user, String computer)
     {
         if (user.equals("Rock"))
