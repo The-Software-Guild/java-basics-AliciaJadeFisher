@@ -16,7 +16,6 @@ public class RockPaperScissors
         Random random = new Random();
 
         System.out.println("======== Rock, Paper, Scissors ========");
-        System.out.println("=======================================");
 
         // Loop which allows the user to play as many games as they would like
         while (true)
